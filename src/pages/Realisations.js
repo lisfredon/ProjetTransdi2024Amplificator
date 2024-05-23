@@ -1,7 +1,10 @@
 import React from 'react';
 import '../style.css';
+import { useNavigation } from '../contexts/NavigationContext'; 
 
 function Realisations() {
+    const { navigateTo } = useNavigation();
+
     return (
         <section id="realisations">
             <div className="body">
@@ -16,7 +19,9 @@ function Realisations() {
                     <img src="../img/projet2.jpg" alt="Projet 2" />
                     <p>Description du projet 2...</p>
                 </div>
-                {/* Ajoutez plus de réalisations ici */}
+                <div>
+                <li><a href="#" onClick={(event)=>navigateTo("pistolet")}>Pistolet</a></li>
+                </div>
             </div>
         </section>
     );

@@ -7,8 +7,11 @@
     color: rgb(38, 38, 38);
 }
 
+h1{
+    margin-top: 2vw;
+}
 .body {
-    padding-top: 180px; /* Ajustez cette valeur selon la hauteur de votre bandeau de navigation */
+    padding-top: 12vw; /* Ajustez cette valeur selon la hauteur de votre bandeau de navigation */
 }
 
 .auCentre {
@@ -32,15 +35,18 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#menuPrincipal {
-    margin-top: 2vw;
+  
+#menuPrincipal{
+    height: 80%;
+    margin-top: 3vw;
 }
 
 #menuPrincipal > li {
     position: relative;
     float: left;
     margin: 10px;
-}
+  }
+  
 
 .Amplificator {
     display: flex;
@@ -77,9 +83,7 @@
     font-weight: bold;
 }
 
-#menuPrincipal li a:hover {
-    color: #f9d300;
-}
+
 
 .logoParcContainer {
     position: absolute;
@@ -119,7 +123,6 @@
 }
 
 #nomCat {
-    color: white;
     font-weight: normal;
     margin-left: 15px;
     font-size: 1.25rem;
@@ -130,7 +133,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(22, 75, 160);
+    background-color: rgb(28,187,187);
     border-radius: 7px;
     margin-bottom: 20px;
     border: 1.5px solid rgb(236, 211, 54);
@@ -138,11 +141,6 @@
     height: 6vw;
 }
 
-#infoDerouler {
-    color: white;
-    font-size: 1rem;
-    cursor: pointer;
-}
 
 #imageDeroule {
     height: 1.9vw;
@@ -202,4 +200,56 @@
     margin-bottom: 10px;
 }
 
+/*----------Pistolet-----------*/
+#imagePistolet{
+    width: 90%
+}
 
+#aDroite {
+    text-align: center;
+}
+
+
+
+#aGauche p {
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#enBas h2 {
+    color: #555;
+    font-size: 20px;
+}
+
+#enBas {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    #aDroite, #aGauche {
+        display: inline-block;
+        width: 50%;
+        vertical-align: top;
+    }
+
+    #aDroite {
+        text-align: right;
+    }
+
+    #aGauche {
+        text-align: left;
+    }
+}

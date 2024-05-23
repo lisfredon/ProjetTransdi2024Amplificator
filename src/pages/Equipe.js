@@ -2,11 +2,10 @@ import React, {useState} from 'react';
 import '../style.css';
 import Reponse from '../components/Reponse.js';
 
-function FAQ(){
+function Equipe(){
     return(
         <section>
         <body className="body">
-            <img src="../img/enfantQuestion.jpg" alt='enfantQuestion' id='enfantQuestion'/>
             <h1>Présentation de l'équipe</h1><br/>
             <div id ="lesCategories">
                 <Reponse title="Coordinateur de la vie sociale" imageSrc="../img/V.png" alt="Image pour dérouler le texte">
@@ -36,4 +35,4 @@ function FAQ(){
         </section>
     )
 }
-export default FAQ
+export default Equipe
