@@ -21,6 +21,7 @@ function Realisations() {
                 </div>
                 <div>
                 <li><a href="#" onClick={(event)=>navigateTo("pistolet")}>Pistolet</a></li>
+                <li><a href="#" onClick={(event)=>navigateTo("boitier")}>Boitier</a></li>
                 </div>
             </div>
         </section>

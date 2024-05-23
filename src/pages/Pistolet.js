@@ -5,7 +5,7 @@ function Pistolet(){
     return(
         <section id="realisations">
             <div className="body">
-                <h1>Le boitier</h1>
+                <h1>Le pistolet</h1>
                 <section id="aDroite">
                     <img src="../img/Parabole.png" alt='pistolet' id='imagePistolet'/>
                 </section>
@@ -23,8 +23,6 @@ function Pistolet(){
                     3. Imprimer toutes les pièces séparement grace à une imprimante 3D (A noter qu'il est préférable d'utiliser comme matériaux le  PLA pour la parabole afin d'avoir un son de meilleur qualité)<br/>
                     4. Assembler les pièces</p>
                 </section>
-
-        
             </div>
         </section>
     )

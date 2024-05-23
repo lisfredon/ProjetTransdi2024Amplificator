@@ -253,3 +253,8 @@ a:hover {
         text-align: left;
     }
 }
+
+/*----------------Boitier----------------*/
+#imageBoitier{
+    width: 80%;
+}

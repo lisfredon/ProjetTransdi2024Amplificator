@@ -8,6 +8,7 @@ import Accueil from './pages/Acceuil.js'
 import Equipe from './pages/Equipe.js'
 import Realisations from './pages/Realisations.js';
 import Pistolet from './pages/Pistolet.js';
+import Boitier from './pages/Boitier.js';
 
 
 function App() {
@@ -31,6 +32,7 @@ function PageContent() {
             {currentPage==='equipe'&&<Equipe/>}
             {currentPage === 'realisations' && <Realisations />}
             {currentPage === 'pistolet'&& <Pistolet/>}
+            {currentPage === 'boitier'&& <Boitier/>}
         </div>
     );
    } 
