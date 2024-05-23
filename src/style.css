@@ -1,38 +1,38 @@
-*{
-    margin : 0;
-    padding : 0;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
     color: rgb(38, 38, 38);
 }
+
+.body {
+    padding-top: 150px; /* Ajustez cette valeur selon la hauteur de votre bandeau de navigation */
+}
+
 .auCentre {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-  
-.bandeauFixe{
+
+.bandeauFixe {
     display: flex; /* Utiliser flexbox */
-    position:fixed;
+    position: fixed;
+    top: 0;
     width: 100%;
     z-index: 2;
-    color:  rgb(236, 211, 54);
+    color: rgb(236, 211, 54);
     height: 150px;
-    background-color: rgb(28,187,187);
-    /* background-color: rgb(22, 75, 160); */
-    border-bottom: 1px solid  rgb(236, 211, 54);
+    background-color: rgb(28, 187, 187);
+    border-bottom: 1px solid rgb(236, 211, 54);
     justify-content: space-between;
-    align-items: center;
-}
-.bandeauFixe {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
-#menuPrincipal{
+#menuPrincipal {
     margin-top: 2vw;
 }
 
@@ -40,7 +40,7 @@
     position: relative;
     float: left;
     margin: 10px;
-  }
+}
 
 .Amplificator {
     display: flex;
@@ -48,6 +48,7 @@
     width: 50%;
     margin-bottom: 10px;
 }
+
 #titre {
     max-width: 100%;
     height: auto;
@@ -77,19 +78,11 @@
 }
 
 #menuPrincipal li a:hover {
-    color: #f9d300 
+    color: #f9d300;
 }
 
-/* .logoParc {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 10px;
-} */
-
 .logoParcContainer {
-    position :absolute;
+    position: absolute;
     display: flex;
     justify-content: flex-end; /* Pushes the .logoParc to the right */
     width: auto; /* Ensure it does not take full width */
@@ -105,27 +98,23 @@
     text-align: center;
 }
 
-
-
 .logoParc img {
     margin-left: 10px;
     height: 36px; /* Adjust height as needed */
 }
 
-.logoParc p{
+.logoParc p {
     font-size: 15px;
     margin-bottom: 5px;
 }
 
-#afficheProjet{
+#afficheProjet {
     width: 80%;
     margin: 10%;
-    
 }
 
-
 /*--------------Equipe--------*/
-#lesCategories{
+#lesCategories {
     margin-inline: 30px;
 }
 
@@ -136,40 +125,80 @@
     font-size: 20px;
 }
 
-
 /*------------Deroule---------*/
-#boutonDeroule{
+#boutonDeroule {
     display: flex;
-    justify-content:space-between;
-    align-items:center;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgb(22, 75, 160);
     border-radius: 7px;
-    margin-bottom :20px;
-    border: 1.5px solid  rgb(236, 211, 54);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    border: 1.5px solid rgb(236, 211, 54);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 6vw;
 }
 
-#infoDerouler{
-    color:white;
+#infoDerouler {
+    color: white;
     font-size: 16px;
     cursor: pointer;
-    }
-
-
-#imageDeroule{
-    height: 1.9vw;
-    width :2.2vw;
 }
-#commentDerouler{
+
+#imageDeroule {
+    height: 1.9vw;
+    width: 2.2vw;
+}
+
+#commentDerouler {
     margin-right: 20px;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     align-items: center; /* Pour centrer les éléments horizontalement */
 }
 
-#commentDerouler:hover{
-    color:white;
+#commentDerouler:hover {
+    color: white;
     text-decoration: underline;
-    }
+}
 
+
+/* ------------ Realisations ------------ */
+#realisations {
+    margin: 10%;
+    text-align: center;
+}
+
+#realisations h1 {
+    font-size: 2.5em;
+    color: rgb(22, 75, 160);
+    margin-bottom: 20px;
+}
+
+#realisations p {
+    font-size: 1.2em;
+    color: rgb(38, 38, 38);
+    line-height: 1.6;
+}
+
+.realisation-card {
+    background-color: rgb(236, 211, 54);
+    border: 1px solid rgb(22, 75, 160);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.realisation-card h2 {
+    color: rgb(28, 187, 187);
+}
+
+.realisation-card p {
+    color: rgb(38, 38, 38);
+}
+
+.realisation-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

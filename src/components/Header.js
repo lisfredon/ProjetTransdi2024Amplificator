@@ -18,13 +18,13 @@ function Header(){
             <section className="menuPrincipal">
             <ul id="menuPrincipal">
                 <li>
-                    <a onClick={(event)=>navigateTo("")}>Le projet Amplificator</a>
+                    <a onClick={(event)=>navigateTo("accueil")}>Le projet Amplificator</a>
                 </li>
                 <li>
                     <a onClick={(event)=>navigateTo("equipe")}>L'équipe</a>
                 </li>
                 <li>
-                    <a onClick={(event)=>navigateTo("")}>Les réalisations</a>
+                    <a onClick={(event)=>navigateTo("realisations")}>Les réalisations</a>
                 </li>
             </ul >
             </section>
