@@ -1,39 +1,44 @@
-*{
-    margin : 0;
-    padding : 0;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
     color: rgb(38, 38, 38);
 }
+
+h1{
+    margin-top: 2vw;
+}
+.body {
+    padding-top: 12vw; /* Ajustez cette valeur selon la hauteur de votre bandeau de navigation */
+}
+
 .auCentre {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-  
-.bandeauFixe{
-    display: flex; /* Utiliser flexbox */
-    position:fixed;
-    width: 100%;
-    z-index: 2;
-    color:  rgb(236, 211, 54);
-    height: 150px;
-    background-color: rgb(28,187,187);
-    /* background-color: rgb(22, 75, 160); */
-    border-bottom: 1px solid  rgb(236, 211, 54);
-    justify-content: space-between;
-    align-items: center;
-}
+
 .bandeauFixe {
-    display: flex;
-    flex-direction: column;
+    display: flex; /* Utiliser flexbox */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* S'assurer que le bandeau est au-dessus du contenu */
+    color: rgb(236, 211, 54);
+    height: 180px;
+    background-color: rgb(28, 187, 187);
+    border-bottom: 1px solid rgb(236, 211, 54);
+    justify-content: space-between;
     align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
+  
 #menuPrincipal{
-    margin-top: 2vw;
+    height: 80%;
+    margin-top: 3vw;
 }
 
 #menuPrincipal > li {
@@ -41,6 +46,7 @@
     float: left;
     margin: 10px;
   }
+  
 
 .Amplificator {
     display: flex;
@@ -48,6 +54,7 @@
     width: 50%;
     margin-bottom: 10px;
 }
+
 #titre {
     max-width: 100%;
     height: auto;
@@ -66,7 +73,7 @@
 }
 
 #menuPrincipal li {
-    margin: 0 15px;
+    margin: 0 1rem;
     margin-bottom: 10px;
 }
 
@@ -76,20 +83,10 @@
     font-weight: bold;
 }
 
-#menuPrincipal li a:hover {
-    color: #f9d300 
-}
 
-/* .logoParc {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 10px;
-} */
 
 .logoParcContainer {
-    position :absolute;
+    position: absolute;
     display: flex;
     justify-content: flex-end; /* Pushes the .logoParc to the right */
     width: auto; /* Ensure it does not take full width */
@@ -105,71 +102,159 @@
     text-align: center;
 }
 
-
-
 .logoParc img {
     margin-left: 10px;
     height: 36px; /* Adjust height as needed */
 }
 
-.logoParc p{
-    font-size: 15px;
+.logoParc p {
+    font-size: 0.9375rem;
     margin-bottom: 5px;
 }
 
-#afficheProjet{
+#afficheProjet {
     width: 80%;
     margin: 10%;
-    
 }
 
-
 /*--------------Equipe--------*/
-#lesCategories{
+#lesCategories {
     margin-inline: 30px;
 }
 
 #nomCat {
-    color: white;
     font-weight: normal;
     margin-left: 15px;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
-
 /*------------Deroule---------*/
-#boutonDeroule{
+#boutonDeroule {
     display: flex;
-    justify-content:space-between;
-    align-items:center;
-    background-color: rgb(22, 75, 160);
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(28,187,187);
     border-radius: 7px;
-    margin-bottom :20px;
-    border: 1.5px solid  rgb(236, 211, 54);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    border: 1.5px solid rgb(236, 211, 54);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 6vw;
 }
 
-#infoDerouler{
-    color:white;
-    font-size: 16px;
-    cursor: pointer;
-    }
 
-
-#imageDeroule{
+#imageDeroule {
     height: 1.9vw;
-    width :2.2vw;
+    width: 2.2vw;
 }
-#commentDerouler{
+
+#commentDerouler {
     margin-right: 20px;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     align-items: center; /* Pour centrer les éléments horizontalement */
 }
 
-#commentDerouler:hover{
-    color:white;
+#commentDerouler:hover {
+    color: white;
     text-decoration: underline;
+}
+
+/* ------------ Realisations ------------ */
+#realisations {
+    margin: 10%;
+    text-align: center;
+}
+
+#realisations h1 {
+    font-size: 2.5rem;
+    color: rgb(22, 75, 160);
+    margin-bottom: 20px;
+}
+
+#realisations p {
+    font-size: 1.2rem;
+    color: rgb(38, 38, 38);
+    line-height: 1.6;
+}
+
+.realisation-card {
+    background-color: rgb(236, 211, 54);
+    border: 1px solid rgb(22, 75, 160);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.realisation-card h2 {
+    color: rgb(28, 187, 187);
+}
+
+.realisation-card p {
+    color: rgb(38, 38, 38);
+}
+
+.realisation-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/*----------Pistolet-----------*/
+#imagePistolet{
+    width: 90%
+}
+
+#aDroite {
+    text-align: center;
+}
+
+
+
+#aGauche p {
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#enBas h2 {
+    color: #555;
+    font-size: 20px;
+}
+
+#enBas {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    #aDroite, #aGauche {
+        display: inline-block;
+        width: 50%;
+        vertical-align: top;
     }
 
+    #aDroite {
+        text-align: right;
+    }
+
+    #aGauche {
+        text-align: left;
+    }
+}
+
+/*----------------Boitier----------------*/
+#imageBoitier{
+    width: 80%;
+}
