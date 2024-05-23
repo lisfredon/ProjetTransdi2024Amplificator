@@ -3,12 +3,12 @@
     margin: 0;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
+    font-size: 1rem;
     color: rgb(38, 38, 38);
 }
 
 .body {
-    padding-top: 150px; /* Ajustez cette valeur selon la hauteur de votre bandeau de navigation */
+    padding-top: 180px; /* Ajustez cette valeur selon la hauteur de votre bandeau de navigation */
 }
 
 .auCentre {
@@ -22,9 +22,9 @@
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 2;
+    z-index: 1000; /* S'assurer que le bandeau est au-dessus du contenu */
     color: rgb(236, 211, 54);
-    height: 150px;
+    height: 180px;
     background-color: rgb(28, 187, 187);
     border-bottom: 1px solid rgb(236, 211, 54);
     justify-content: space-between;
@@ -67,7 +67,7 @@
 }
 
 #menuPrincipal li {
-    margin: 0 15px;
+    margin: 0 1rem;
     margin-bottom: 10px;
 }
 
@@ -104,7 +104,7 @@
 }
 
 .logoParc p {
-    font-size: 15px;
+    font-size: 0.9375rem;
     margin-bottom: 5px;
 }
 
@@ -122,7 +122,7 @@
     color: white;
     font-weight: normal;
     margin-left: 15px;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 /*------------Deroule---------*/
@@ -140,7 +140,7 @@
 
 #infoDerouler {
     color: white;
-    font-size: 16px;
+    font-size: 1rem;
     cursor: pointer;
 }
 
@@ -161,7 +161,6 @@
     text-decoration: underline;
 }
 
-
 /* ------------ Realisations ------------ */
 #realisations {
     margin: 10%;
@@ -169,13 +168,13 @@
 }
 
 #realisations h1 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     color: rgb(22, 75, 160);
     margin-bottom: 20px;
 }
 
 #realisations p {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     color: rgb(38, 38, 38);
     line-height: 1.6;
 }
@@ -202,3 +201,5 @@
     border-radius: 5px;
     margin-bottom: 10px;
 }
+
+

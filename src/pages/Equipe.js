@@ -14,15 +14,15 @@ function FAQ(){
                     Celui-ci s'occupe de ...<br/><br/>
                 </Reponse>
                 <Reponse title="Orthophoniste" imageSrc="../img/V.png" alt="Image pour dérouler le texte" style={{ color: 'white' }}>
-                    <strong>Mondane</strong><br/>
-                    Celle-ci ...<br/><br/>
+                    <strong>Mondane Miginiac</strong><br/>
+                    <strong>Pascale Celerier</strong><br/>
                 </Reponse>
                 <Reponse title="Fablab Cohabit" imageSrc="../img/V.png" alt="Image pour dérouler le texte" style={{ color: 'white' }}>
                 <strong>Pierre Grangé-Praderas - Responsable du fablab Cohabit</strong><br/>
-                <br/>
+                <strong>Jean-Baptiste Bonnemaison - Responsable du fablab Cohabit</strong><br/>
                 <strong>Service civique au fablab Cohabit - Neil </strong><br/>
                 <strong>Service civique au fablab Cohabit - Paul</strong><br/>
-                <strong>Service civique au fablab Cohabit -  </strong><br/>
+                <strong>Service civique au fablab Cohabit - Lucas</strong><br/>
                 </Reponse>
                 <Reponse title="Etudiants de l'ENSC" imageSrc="../img/V.png" alt="Image pour dérouler le texte" style={{ color: 'white' }}>
                 <strong>Lisa Fredon</strong><br/>
