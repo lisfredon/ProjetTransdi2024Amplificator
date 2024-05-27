@@ -10,7 +10,8 @@ function Boitier(){
                     <img src="../img/Boitier.png" alt='boitier' id='imageBoitier'/>
                 </section>
                 <section id="aGauche">
-                    <p>L’aide auditive est composée d’un boitier dans lequel se trouve la pile, la manette, la prise jack et le bouton d’allumage. 
+                    <p>L’aide auditive est composée d’un boitier dans lequel se trouve la pile, la manette, la prise jack et le bouton d’allumage. <br/>
+                    Pour suivre les avancées : <a href="https://projets.cohabit.fr/redmine/projects/amplificator/wiki" id ="lienWiki">Lien vers le wiki</a>
                     </p>
                 </section>
                 <section id="enBas">
@@ -33,6 +34,7 @@ function Boitier(){
                     3. Réaliser les découpes lasers et les impressions 3D des éléments en veillant à respecter la méthode et le matériel utilisé.<br/>
                     4. Assembler les pièces</p>
                 </section>
+                
             </div>
         </section>
     )

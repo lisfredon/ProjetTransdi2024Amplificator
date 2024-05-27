@@ -24,7 +24,13 @@ function Header(){
                     <a onClick={(event)=>navigateTo("equipe")}>L'équipe</a>
                 </li>
                 <li>
-                    <a onClick={(event)=>navigateTo("realisations")}>Les réalisations</a>
+                    <a onClick={(event)=>navigateTo("modeEmploi")}>Le mode d'emploi</a>
+                </li>
+                <li>
+                    <a onClick={(event)=>navigateTo("realisations")}>La conception</a>
+                </li>
+                <li>
+                    <a onClick={(event)=>navigateTo("futur")}>Et le futur ?</a>
                 </li>
             </ul >
             </section>

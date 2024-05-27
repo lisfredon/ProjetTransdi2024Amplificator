@@ -11,7 +11,8 @@ function Pistolet(){
                 </section>
                 <section id="aGauche">
                     <p>L’aide auditive est composée d’une parabole tenu grâce à une poignée. Cette parabole permet de cibler la voix d’un individu. 
-                        Pour ce faire, il suffit de pointer la parabole sur la personne et d’appuyer de manière continue sur la gâchette.</p>
+                        Pour ce faire, il suffit de pointer la parabole sur la personne et d’appuyer de manière continue sur la gâchette.<br/>
+                        Pour suivre les avancées : <a href="https://projets.cohabit.fr/redmine/projects/amplificator/wiki" id ="lienWiki">Lien vers le wiki</a></p>
                 </section>
                 <section id="enBas">
                     <h2>Conception :</h2>
@@ -23,6 +24,7 @@ function Pistolet(){
                     3. Imprimer toutes les pièces séparement grace à une imprimante 3D (A noter qu'il est préférable d'utiliser comme matériaux le  PLA pour la parabole afin d'avoir un son de meilleur qualité)<br/>
                     4. Assembler les pièces</p>
                 </section>
+
             </div>
         </section>
     )

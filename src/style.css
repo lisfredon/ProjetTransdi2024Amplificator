@@ -5,6 +5,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1rem;
     color: rgb(38, 38, 38);
+    font-size: 16px;
 }
 
 h1{
@@ -46,6 +47,10 @@ h1{
     float: left;
     margin: 10px;
   }
+
+  #menuPrincipal li a:hover {
+    color: rgb(236, 211, 54) /* Couleur de fond au survol */
+}
   
 
 .Amplificator {
@@ -114,12 +119,57 @@ h1{
 
 #afficheProjet {
     width: 80%;
-    margin: 10%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/*--------------Acceuil--------*/
+#h1Acceuil {
+    text-align: center;
+    -webkit-text-fill-color: transparent; /* Masque la couleur du texte pour Safari */
+    -webkit-background-clip: text; /* Utilise le texte comme clip pour l'arrière-plan */
+    background-clip: text; /* Utilise le texte comme clip pour l'arrière-plan */
+    background-color: white;
+    text-shadow: 0 0 0 rgb(28,187,187),/* Ombre de texte noire pour bordure */
+                 1px 1px 0 rgb(28,187,187),
+                 -1px -1px 0 black,
+                 1px -1px 0 rgb(28,187,187),
+                 -1px 1px 0 rgb(28,187,187);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Police élégante */
+    font-size: 36px; /* Taille de police grande */
+    margin-bottom: -8vw;
+    line-height: 1.5; /* Espacement des lignes pour une meilleure lisibilité */
+}
+#Fablab{
+    text-decoration: none; /* Supprime la décoration de lien par défaut */
+    color: black;
+    transition: color 0.3s; 
+    text-align: center;
+}
+
+#lienWiki{
+    text-decoration: none; /* Supprime la décoration de lien par défaut */
+    color: rgb(28,187,187);
+    transition: color 0.3s; 
+    text-align: center;
+    margin-bottom: 2vw;
+    font-size: 30px;
+}
+#lienWiki:hover{
+    text-decoration:underline;
+}
+
+#planVert{
+    padding: 2vw;
+    margin: 2vw;
+    border-radius: 4px;
+    background-color: rgba(181, 209, 19, 0.925);
+    font-size: 20px;
 }
 
 /*--------------Equipe--------*/
 #lesCategories {
-    margin-inline: 30px;
+    margin-inline: 20px;
 }
 
 #nomCat {
@@ -138,7 +188,7 @@ h1{
     margin-bottom: 20px;
     border: 1.5px solid rgb(236, 211, 54);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 6vw;
+    height: 5vw;
 }
 
 
@@ -163,6 +213,11 @@ h1{
 #realisations {
     margin: 10%;
     text-align: center;
+    margin-top: 0%;
+}
+#realisations a{
+    font-size: 30px;
+    color: rgb(22, 75, 160);
 }
 
 #realisations h1 {
@@ -200,6 +255,20 @@ h1{
     margin-bottom: 10px;
 }
 
+.realisation-card .content {
+    display: flex;
+    align-items: center;
+}
+
+.realisation-card .content img {
+    margin-right: 10px; /* Pour un espace entre l'image et la description */
+}
+
+.realisation-card .content p {
+    margin: 0; /* Supprime la marge par défaut du paragraphe */
+    width: 80%;
+}
+
 /*----------Pistolet-----------*/
 #imagePistolet{
     width: 90%
@@ -210,10 +279,10 @@ h1{
 }
 
 
-
 #aGauche p {
     padding: 15px;
     border-radius: 8px;
+    margin-top: 10%;
 }
 
 #enBas h2 {
@@ -226,11 +295,16 @@ h1{
     padding: 15px;
     border-radius: 8px;
     border: 1px solid #ddd;
+    list-style-type: none;
 }
 
 a {
     color: #007BFF;
     text-decoration: none;
+}
+
+#enBas a{
+    font-size: 20px;
 }
 
 a:hover {
@@ -256,5 +330,88 @@ a:hover {
 
 /*----------------Boitier----------------*/
 #imageBoitier{
-    width: 80%;
+    width: 30%;
+}
+
+/*-----------Electronique------------*/
+#imageElectronique{
+    width: 40%;
+    align-items: center;
+}
+#imageElectronique2{
+    width: 60%;
+    align-items: center;
+}
+
+/*------------Test------------------*/
+#imageTest{
+    width: 20%;
+}
+
+
+
+.contentTest ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.contentTest p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+.problemes {
+    display: flex;
+    justify-content: space-between;
+}
+
+#gauche, #droit {
+    width: 48%;
+    border: 1.5px solid rgb(28, 187, 187); 
+    border-radius: 4px;
+    margin: 2%;
+    padding: 2%;
+}
+
+/*---------------Footer--------------*/
+.footer {
+    background-color:rgb(28, 187, 187);
+    color: rgb(236, 211, 54);
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 3px solid rgb(236, 211, 54);
+}
+
+.Adroite, .AGauche {
+    flex: 1;
+    text-align: center;
+}
+
+.Adroite h2, .AGauche h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.AuCentre {
+    flex: 1;
+    text-align: center;
+}
+
+#logoENSC {
+    width: 40%;
+    height: auto;
+}
+
+.AGauche p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/*-----------Futur--------------*/
+.text-projet {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 20px; /* Marge de 20px à droite et à gauche */
+    text-align: left;
 }
