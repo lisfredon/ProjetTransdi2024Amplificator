@@ -17,7 +17,7 @@ function Footer(){
             <div className="AGauche">
                 <h2>Nous Contacter</h2>
                 <p>Lisa Fredon : lisfredon@ensc</p>
-                <p>Olivier Rouault : oRouault@ensc</p>
+                <p>Olivier Rouault : orouault@ensc</p>
             </div>
         </div>
     )

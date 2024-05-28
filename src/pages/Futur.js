@@ -65,18 +65,30 @@ function Futur(){
                 - Réfléchir au type de réponses à recueillir, à qui doit remplir le questionnaire et le plus important comment encourager les interactions sociales et que tout le monde prennent du plaisir.<br/><br/>
                 </div>
                 </Reponse>
+                <Reponse title="Pistes d'amélioration pour le document de reproduction." imageSrc="../img/V.png" alt="Image pour dérouler le texte">
+                <div className='text-projet'>
+                Durant l'année 2023-2024, nous n'avons pas eu le temps de faire un document de reproduction dédié à la conception de l'Amplificator. 
+                Il reste donc la partie "tutoriel de conception" à faire et à tester en prenant des individus qui n'y connaissent pas grand chose et voir si il arrive avec seulement la documentation à faire l'aide auditive. 
+                Sur le wiki du fablab, la partie où le travail sur l'électronique est à documenter. (La page personnel de Joël Schlüter pourra peut-être aider pour les explications) <br/><br/>
+                </div>
+                </Reponse>
                 <Reponse title="Ouverture du projet aux contributeurs" imageSrc="../img/V.png" alt="Image pour dérouler le texte">
                 <div className='text-projet'>
-                Le projet ayant une base matérielle solide, il peut maintenant être ouvert aux contributeurs et autres fablabs.Questions à adresser : communication des contributions (où?, comment?, à qui?).<br/>
+                Le projet ayant une base matérielle solide, il peut maintenant être ouvert aux contributeurs et autres fablabs. Questions à se poser sur les communication des contributions (où?, comment?, à qui?). 
+                Ce qui peut être fait est de s'assurer que les contributions soit compréhensible et implémentable en faisant des tests de reproductions.<br/>
                 Comment faire découvrir la poésie du projet aux autres ?<br/>
-                Pistes d'amélioration pour le déroulement des réunions.<br/>
-
+                </div>
+                </Reponse>
+                <Reponse title="Pistes d'amélioration pour le déroulement des réunions." imageSrc="../img/V.png" alt="Image pour dérouler le texte">
+                <div className='text-projet'>
                 Organiser les réunions comme des événements ouverts à tous, en particulier aux personnes âgées, les principales concernées par ce projet et cela permettrait d'obtenir directement leur avis et faire des tests en leur présence.<br/><br/>
                 </div>
                 </Reponse>
                 <div id="Reu">
                 Prochaine réunion pour septembre/octobre 2024 (à redéfinir)<br/>
                 </div>
+                
+
             </div>
         </section>
     )
