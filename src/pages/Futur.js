@@ -32,12 +32,13 @@ function Futur(){
                 - Améliorer la distance de perception du micro. Actuellement, pour une distance de plus de 5m, le son n'est plus capté par l'Amplificator.<br/><br/>
                 </div>
                 </Reponse>
-                <Reponse title="Pistes de développement de nouveaux prototypes" imageSrc="../img/V.png" alt="Image pour dérouler le texte">
+                <Reponse title="Pistes de développements de nouveaux prototypes" imageSrc="../img/V.png" alt="Image pour dérouler le texte">
                 <div className='text-projet'>
                 - Concevoir un harnais/une banane/une sangle/une ceinture pour accrocher le dispositif et le rendre plus transportable.<br/><br/>
                 - Créer un modèle pour une utilisation sur les genoux, adapté à la forme des cuisses/genoux.<br/><br/>
                 - Miniaturiser le système électrique pour l'intégrer entièrement dans le pistolet afin de le rendre plus portatif.<br/><br/>
                 - Diminuer le poids grâce à l'impression en fibre de carbone.<br/><br/>
+                - Implémentation d'un micro suplémentaire omnidirectionnel pour augmenter le volume général d'une pièce<br/><br/>
                 </div>
                 </Reponse>
                 <Reponse title="Évaluation des performances de l'Amplificator" imageSrc="../img/V.png" alt="Image pour dérouler le texte">
@@ -65,7 +66,7 @@ function Futur(){
                 - Réfléchir au type de réponses à recueillir, à qui doit remplir le questionnaire et le plus important comment encourager les interactions sociales et que tout le monde prennent du plaisir.<br/><br/>
                 </div>
                 </Reponse>
-                <Reponse title="Pistes d'amélioration pour le document de reproduction." imageSrc="../img/V.png" alt="Image pour dérouler le texte">
+                <Reponse title="Pistes d'améliorations pour le document de reproduction." imageSrc="../img/V.png" alt="Image pour dérouler le texte">
                 <div className='text-projet'>
                 Durant l'année 2023-2024, nous n'avons pas eu le temps de faire un document de reproduction dédié à la conception de l'Amplificator. 
                 Il reste donc la partie "tutoriel de conception" à faire et à tester en prenant des individus qui n'y connaissent pas grand chose et voir si il arrive avec seulement la documentation à faire l'aide auditive. 
@@ -79,7 +80,7 @@ function Futur(){
                 Comment faire découvrir la poésie du projet aux autres ?<br/>
                 </div>
                 </Reponse>
-                <Reponse title="Pistes d'amélioration pour le déroulement des réunions." imageSrc="../img/V.png" alt="Image pour dérouler le texte">
+                <Reponse title="Pistes d'améliorations pour le déroulement des réunions." imageSrc="../img/V.png" alt="Image pour dérouler le texte">
                 <div className='text-projet'>
                 Organiser les réunions comme des événements ouverts à tous, en particulier aux personnes âgées, les principales concernées par ce projet et cela permettrait d'obtenir directement leur avis et faire des tests en leur présence.<br/><br/>
                 </div>
