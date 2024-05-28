@@ -5,7 +5,7 @@ function Pistolet(){
     return(
         <section id="realisations">
             <div className="body">
-                <h1>Le pistolet</h1>
+                <h1>Le pistolet parabolique</h1>
                 <section id="aDroite">
                     <img src="../img/Parabole.png" alt='pistolet' id='imagePistolet2'/>
                 </section>

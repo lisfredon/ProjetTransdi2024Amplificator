@@ -10,7 +10,7 @@ function Realisations() {
             <div className="body">
                 <h1>La conception</h1>
                 <div className="realisation-card">
-                    <a href="#" onClick={(event)=>navigateTo("pistolet")}>Pistolet</a>
+                    <a href="#" onClick={(event)=>navigateTo("pistolet")}>Pistolet parabolique</a>
                     <div class="content">
                         <img src="../img/Parabole.png" alt='pistolet' id='imagePistolet'/>
                         <p>L’Amplificator est composé d’une parabole tenu grâce à une poignée. Cette parabole permet de cibler la voix d’un individu. 
