@@ -1,5 +1,5 @@
 {
-    "name": "my-first-react-app",
+    "name": "ProjetTransdi2024Amplificator",
     "version": "1.0.0",
     "description": "Une application React",
     "main": "index.js",
@@ -11,7 +11,7 @@
       "predeploy": "npm run build",
       "deploy": "gh-pages -d build"
     },
-    "author": "John Doe",
+    "author": "lisfredon",
     "dependencies": {
       "react": "^18.2.0",
       "react-dom": "^18.2.0",
@@ -32,6 +32,6 @@
     "devDependencies": {
       "gh-pages": "^6.1.1"
     },
-    "homepage": "https://<votre-nom-utilisateur>.github.io/<nom-du-repo>"
+    "homepage": "https://lisfredon.github.io/ProjetTransdi2024Amplificator"
   }
   
