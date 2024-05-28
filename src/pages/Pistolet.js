@@ -7,7 +7,7 @@ function Pistolet(){
             <div className="body">
                 <h1>Le pistolet</h1>
                 <section id="aDroite">
-                    <img src="../img/Parabole.png" alt='pistolet' id='imagePistolet'/>
+                    <img src="../img/Parabole.png" alt='pistolet' id='imagePistolet2'/>
                 </section>
                 <section id="aGauche">
                     <p>L’aide auditive est composée d’une parabole tenu grâce à une poignée. Cette parabole permet de cibler la voix d’un individu. 
