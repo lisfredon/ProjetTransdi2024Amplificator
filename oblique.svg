@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 2970 2100"
+   height="210mm"
+   width="297mm"
+   version="1.2"
+   id="svg18"
+   sodipodi:docname="oblique.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview18"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.68239338"
+     inkscape:cx="504.10806"
+     inkscape:cy="385.40819"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Page002" />
+  <title
+     id="title1">FreeCAD SVG Export</title>
+  <desc
+     id="desc1">Drawing page: Page002 exported from FreeCAD document: boite_3</desc>
+  <defs
+     id="defs1">
+    <symbol
+       id="RightAndDownArrow">
+      <title
+         id="title286">Right and Down Arrow</title>
+      <path
+         d="M 56,56 H 24 L 13,45 H 37 L 14,22 22,14 45,37 V 13 l 11,11 z"
+         style="stroke:none"
+         id="path286" />
+    </symbol>
+    <symbol
+       id="DownArrow">
+      <title
+         id="title284">Down Arrow</title>
+      <path
+         d="M 36,63 14,41 V 26 L 30,42 V 10 H 42 V 42 L 58,26 v 15 z"
+         style="stroke:none"
+         id="path284" />
+    </symbol>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="Page002"
+     inkscape:label="TechDraw">
+    <g
+       style="stroke: none;"
+       id="A4_Landscape_blank2.svg"
+       transform="scale(10.000000, 10.000000)">
+      <metadata
+         id="metadata8">
+        <rdf:RDF>
+          <cc:Work
+             rdf:about="">
+            <dc:format>image/svg+xml</dc:format>
+            <dc:type
+               rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+            <dc:title>FreeCAD SVG Export</dc:title>
+          </cc:Work>
+        </rdf:RDF>
+      </metadata>
+    </g>
+    <g
+       id="g20">
+      <g
+         id="g18">
+        <path
+           d="m 1935,590 v 920 H 1035 V 590 h 900"
+           fill-rule="evenodd"
+           vector-effect="non-scaling-stroke"
+           id="path1"
+           style="font-style:normal;font-weight:400;font-size:27.5167px;font-family:'MS Shell Dlg 2';fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1" />
+        <path
+           d="m 1535,725 v 700 H 1435 V 725 h 100"
+           fill-rule="evenodd"
+           vector-effect="non-scaling-stroke"
+           id="path2"
+           style="font-style:normal;font-weight:400;font-size:27.5167px;font-family:'MS Shell Dlg 2';fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1" />
+        <path
+           d="m 1361,1210 c 0,8.837 -7.163,16 -16,16 -8.837,0 -16,-7.163 -16,-16 0,-8.837 7.163,-16 16,-16 8.837,0 16,7.163 16,16"
+           fill-rule="evenodd"
+           vector-effect="non-scaling-stroke"
+           id="path3"
+           style="font-style:normal;font-weight:400;font-size:27.5167px;font-family:'MS Shell Dlg 2';fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1" />
+        <path
+           d="m 1641,1210 c 0,8.837 -7.163,16 -16,16 -8.837,0 -16,-7.163 -16,-16 0,-8.837 7.163,-16 16,-16 8.837,0 16,7.163 16,16"
+           fill-rule="evenodd"
+           vector-effect="non-scaling-stroke"
+           id="path4"
+           style="font-style:normal;font-weight:400;font-size:27.5167px;font-family:'MS Shell Dlg 2';fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1" />
+        <path
+           d="m 1361,910 c 0,8.837 -7.163,16 -16,16 -8.837,0 -16,-7.163 -16,-16 0,-8.837 7.163,-16 16,-16 8.837,0 16,7.163 16,16"
+           fill-rule="evenodd"
+           vector-effect="non-scaling-stroke"
+           id="path5"
+           style="font-style:normal;font-weight:400;font-size:27.5167px;font-family:'MS Shell Dlg 2';fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1" />
+        <path
+           d="m 1641,910 c 0,8.837 -7.163,16 -16,16 -8.837,0 -16,-7.163 -16,-16 0,-8.837 7.163,-16 16,-16 8.837,0 16,7.163 16,16"
+           fill-rule="evenodd"
+           vector-effect="non-scaling-stroke"
+           id="path6"
+           style="font-style:normal;font-weight:400;font-size:27.5167px;font-family:'MS Shell Dlg 2';fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1" />
+      </g>
+      <g
+         id="g19"
+         transform="matrix(0.47181632,0,0,0.87676799,661.34753,122.22097)">
+        <use
+           xlink:href="#DownArrow"
+           style="fill:#000000;stroke:#000000"
+           id="use1"
+           transform="matrix(2.6458333,0,0,5.608664,1104.7696,1044.7388)" />
+        <use
+           xlink:href="#DownArrow"
+           style="fill:#000000;stroke:#000000"
+           id="use1-5"
+           transform="matrix(-2.6458333,0,0,-5.608664,1295.2696,1156.9121)" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:274.242px;font-family:Calibri;-inkscape-font-specification:Calibri;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.72907;stroke-opacity:1"
+         x="1159.2437"
+         y="818.02899"
+         id="text19"><tspan
+           sodipodi:role="line"
+           id="tspan19"
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.72905"
+           x="1159.2437"
+           y="818.02899">+</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:444.485px;font-family:Calibri;-inkscape-font-specification:Calibri;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7.66474;stroke-opacity:1"
+         x="1159.4963"
+         y="1511.3368"
+         id="text20"><tspan
+           sodipodi:role="line"
+           id="tspan20"
+           style="stroke-width:7.66472"
+           x="1159.4963"
+           y="1511.3368">-</tspan></text>
+    </g>
+  </g>
+</svg>
